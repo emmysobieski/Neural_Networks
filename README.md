@@ -18,4 +18,10 @@ To try to increase model performance, I bucketed data where appropriate, encoded
 
 Target model performance of 75% was NOT acheived, however I did come close at 72.7% for my best model (#2 above).  This model had two layers, 40 neurons in the first input layer, 8 neurons in the second input layer, used ReLU for both input activation functions, and used sigmoid for the output activation function, and ran for 50 Epochs.
 
+It is telling that all these model changes really didn't produce significantly different outcomes, with accuracy mostly around 72.5%.  
+
+Two solutions:
+1. Look for additional data that might help predict the success of a charity (and understand that some part of success might be hard to measure like people's motivation)
+2. Use an alternative machine learning model, rather than a deep learning or neural network.
+
 I would use Random Forest as a classification model, because this data seems to be stronger as an ensemble which is what Random Forest does well - takes alot of weak correlations and together makes a stronger predictive model.
